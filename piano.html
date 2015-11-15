@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>PIANO</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <link rel="stylesheet" type = "text/css" href="piano.css" />
+    <script type="text/javascript" src="piano.js"></script>
+
+  </head>
+  <body>
+
+    <audio id="noteA" src="sounds/piano-a.wav" preload="auto"></audio>
+    <audio id="noteB" src="sounds/piano-b.wav" preload="auto"></audio>
+    <audio id="noteC" src="sounds/piano-c.wav" preload="auto"></audio>
+    <audio id="noteD" src="sounds/piano-d.wav" preload="auto"></audio>
+    <audio id="noteE" src="sounds/piano-e.wav" preload="auto"></audio>
+    <audio id="noteF" src="sounds/piano-f.wav" preload="auto"></audio>
+    <audio id="noteG" src="sounds/piano-g.wav" preload="auto"></audio>
+
+
+
+<!-- pink>purple>blue>green>yellow>orange>red  -->
+
+
+    <h1>FEEL THE MUSIC</h1>
+    <div id= "pink" style="background-color: pink;" onmouseover = "pianoKey('noteA')"></div>
+    <div id= "purple" style="background-color: purple;" onmouseover = "pianoKey('noteB')", "whiteOut('purple')">
+    </div>
+    <div id= "blue" style="background-color: blue" onmouseover = "pianoKey('noteC')">
+    </div>
+    <div id="green" style="background-color: green;" onmouseover = "pianoKey('noteD')">
+    </div>
+    <div id="yellow" style="background-color: yellow" onmouseover = "pianoKey('noteE')">
+
+    </div>
+    <div id="orange" style="background-color: orange" onmouseover = "pianoKey('noteF')">
+
+    </div>
+    <div id="red" style="background-color: red" onmouseover = "pianoKey('noteG')">
+
+    </div>
+  </body>
+</html>
